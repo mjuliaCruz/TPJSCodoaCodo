@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <!--<link rel="STYLESHEET" href="estilos.css">-->
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <title>Conf Bs As</title>
+    </head>
+    <body>
+   
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-collapse bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="codoacodo.png" alt="codoacodo" style="width:85px; margin: 0px 3px 3px 50px;"> 
+                <span class="navbar-brand">Conf Bs As</span>   
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" style="padding-right: 30px ;" id="navbarCollapse">
+                <ul class="navbar-nav" style="margin: 0px 50px 3px 3px">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="comprarTickets.html">Comprar tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--container-fluid-->
+    <main>
+        <div class="container-fluid" style="height: 700px; margin-top: -150px; background-image: linear-gradient(rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)), url(ba1.jpg);background-size: 100%;background-repeat: no-repeat;">      
+            <div class="container text-end" style="padding-top: 340px;">
+                <h2 class="text-light" style="padding-right:12px;">Conf BsAs</h2>
+                <p class="text-light container text-end" style="padding-left: 450px; font-size: 16px;">
+                    Bs As llega por primera vez a Argentina. Un evento para compartir con <br> nuestra comunidad el conocimiento y experiencia
+                     de los expertos que<br>están creando el futuro de internet. Ven a conocer a miembros del <br>evento, a otros estudiantes
+                    de Codo a Codo y los oradores de primer <br>nivel que tenemos para ti. Te esperamos!
+                </p>
+                <div class="content-end" style="display: inline-block; padding-right: 12px;">
+                    <button type="button" class="btn btn-outline-light" style="padding-right: 10px; margin-right: 10px;">Quiero ser orador</button>
+                    <button type="button" class="btn btn-success">Comprar tickets</button>                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--etiquetas-->
+    <div class="text-center" style="margin-top: 5px;">
+        <p>CONOCE A LOS</p>
+        <h2 style="margin-top: -15px;">ORADORES</h2>
+    </div>
+    
+    <div class="container-fluid" style="width: 70%;">
+        <div class="card-group">
+            <div class="card" style="width:20px; margin:15px; border-style: solid;">
+                <img class="card-img-top" src="steve.jpg" alt="SteveJobs" style="width:100%" height="65%">
+                <div class="card-body">
+                    <div class="container mt-2" style="margin-left: -10px;">
+                        <span class="badge bg-warning text-dark" >JavaScript</span>
+                        <span class="badge bg-info">React</span>
+                    </div>
+                    <h4 class="card-title">Steve Jobs</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                    
+                </div>
+            </div>
+
+            <div class="card border" style="width:20px; margin:15px; border-left: black;">
+                <img class="card-img-top" src="bill.jpg" alt="BillGates" style="width:100%" height="65%">
+                <div class="card-body">
+                    <div class="container mt-2" style="margin-left: -10px;">
+                        <span class="badge bg-warning text-dark" >JavaScript</span>
+                        <span class="badge bg-info">React</span>
+                    </div>
+                    <h4 class="card-title">Bill Gates</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                    
+                </div>
+            </div>
+
+            <div class="card border" style="width:20px; margin:15px">
+                <img class="card-img-top" src="ada.jpeg" alt="AdaLovelace" style="width:100%" height="65%">
+                <div class="card-body">
+                    <div class="container mt-2" style="margin-left: -10px;">
+                        <span class="badge bg-secondary text-light">Negocios</span>
+                        <span class="badge bg-danger">Startups</span>
+                    </div>
+                    <h4 class="card-title">Ada Lovelace</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!--columnas: imagen izquierda - negro con texto derecha-->
+    <div class="row">
+        <div class="col-sm-6 p-3 text-white" style="background-image: url(honolulu.jpg); height: 450px; margin-bottom: 10px; background-size: 100%; background-repeat: no-repeat;">
+            <!--<div class="container" style="max-width: 10%;">-->
+                <!--<img src="honolulu.jpg" class="float-start" width="825" height="500">    -->
+            <!--</div>-->
+        </div>
+        <div class="col-sm-6 p-3 bg-dark text-white" style="height: 450px; background-size: 100%; margin-bottom: 10px;">
+            <!--<div class="container" style="max-width: 10%;">   width="600" height="400" style="margin: 16px -10px 16px;" -->
+                <h2 class="text-light">Bs As - Octubre</h2>
+                <p class="text-light text-success" style="font-size: 15px;">
+                Buenos Aires  es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la 
+                más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana
+                en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad - condado consolidada
+                que cubre toda la ciudad (aproximadamente 600 km2 de superficie).
+                </p>
+            <!--</div>-->
+            <button type="button" class="btn btn-outline-light">Conocé más</button>
+        </div>
+      </div>
+    <!--FORMULARIO-->
+    <div class="text-center" style="margin-top: 5px;">
+        <p style="font-size: 16px;">CONVIÉRTETE EN UN </p>
+        <h2 style="margin-top: -15px;">ORADOR</h2>
+        <p style="font-size: 16px;">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+    </div>
+    <form>
+        <div class="container" style="width: 50%;">
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Nombre" name="name" required>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="lname" placeholder="Apellido" name="lname" required>
+                    </div>
+                </div>
+            </div>
+            <textarea class="form-control" rows="5" id="comment" placeholder="Sobre qué quieres hablar?" style="font-size: 20px;"></textarea>
+            <small class="text-muted">Recuerda incluir un título para tu charla</small>
+            <br>
+            <!--<div class="content-center">-->
+                <button type="submit" class="btn btn-block" style="background-color:#9FC673; color: white; width: 100%; margin-top: 10px;">Enviar</button>
+            <!--</div>-->
+        </div>
+      </form>
+    
+    <!--links al pie-->    
+            
+    <footer>    
+        <div class="container-fluid " style="width: 100%; height:85px; padding:10px; margin-top: 20px; background-color: #0D4C6E; color: white; text-align: center;"  >
+            <span class="align-middle">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav justify-content-center " style= "color: white">
+                            <br>
+                            <BR>
+                            <li class="nav-item ">
+                                <a class="nav-link " style= "color: lightgray; padding:5px 30px;" href="#"><b>Preguntas <br> frecuentes</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style= "color: lightgray; padding:18px 30px;" href="#"><b>Contáctanos</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style= "color: lightgray; padding:18px 30px;" href="#"><b>Prensa</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style= "color: lightgray; padding:18px 30px;" href="#"><b>Conferencias</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style= "color: lightgray; padding:5px 30px;" href="#"><b>Términos y <br> condiciones</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style= "color: lightgray; padding:18px 30px;" href="#"><b>Privacidad</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style= "color: lightgray; padding:18px 30px;" href="#"><b>Estudiantes</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </footer>
+  </body>
+</html>
